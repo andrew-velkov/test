@@ -1,6 +1,6 @@
 ## test cart
 
-### `git clone git@gitlab.com:andrew.velkov/test-cart.git`
+### `git clone git@github.com:andrew-velkov/test.git`
 
 ### `cd test-cart`
 
