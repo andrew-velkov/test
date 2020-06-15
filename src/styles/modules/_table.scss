@@ -1,0 +1,21 @@
+.tableWrap {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  overflow: auto;
+  &__container {
+    position: relative;
+  }
+  &__th {
+    white-space: nowrap;
+  }
+  &__comments {
+    max-width: 280px;
+    max-height: 200px;
+    overflow: auto;
+  }
+  &__actions {
+    @include flex(center, flex-end)
+  }
+}

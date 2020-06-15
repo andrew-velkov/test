@@ -1,0 +1,27 @@
+
+.buttonGroup {
+  @include flex(center, space-between);
+  padding: 2.4rem 0 0;
+  width: 100%;
+  &__item {
+    &:last-child {
+      padding-right: 0;
+    }
+    & button {
+      margin-right: 1.5rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &_end {
+    justify-content: flex-end;
+  }
+  &_offset {
+    padding-bottom: 1.5rem;
+  }
+  &_reset {
+    padding: 0;
+    width: auto;
+  }
+}

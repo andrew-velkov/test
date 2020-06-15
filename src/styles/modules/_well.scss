@@ -1,0 +1,24 @@
+@import '../mixins/flex';
+
+.well {
+  @include flex(center, center);
+  color: #888;
+  position: relative;
+  font-size: 13px;
+  height: auto;
+  min-height: 40px;
+  padding: 15px;
+  margin-top: 25px;
+  &_medium {
+    min-height: 80px;
+  }
+  &_large {
+    min-height: 220px;
+  }
+  &_reset {
+    margin: 0;
+    padding: 0;
+    min-height: auto;
+    height: 100%;
+  }
+}

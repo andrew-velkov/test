@@ -1,0 +1,39 @@
+.fetching {
+  position: relative;
+  width: 100%;
+  &__progress {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 7rem;
+    padding: 1.5rem 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    &_initial {
+      position: initial;
+    }
+    &_background {
+      background-color: rgba(241, 241, 243, 0.7);
+    }
+    &_reset {
+      min-height: auto;
+      padding: 0;
+      top: 0;
+    }
+  }
+  &_height {
+    height: 100%;
+  }
+  &::after {
+    background: linear-gradient(to bottom, rgba(245, 246, 247, 0) 0%, #f8f9fa 100%);
+    content: '';
+    bottom: 0px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+}

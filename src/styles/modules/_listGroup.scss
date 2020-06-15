@@ -1,0 +1,10 @@
+.listGroup {
+  padding-bottom: 2rem;
+  width: 100%;
+  &__title {
+    padding-bottom: 0;
+  }
+  &_inline {
+    @include flex(center, space-between);
+  }
+}

@@ -1,0 +1,10 @@
+.notFound {
+  display: flex;
+  height: 100%;
+  &__inner {
+    margin: auto;
+  }
+  &__img {
+    max-width: 400px;
+  }
+}
